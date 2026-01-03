@@ -1,4 +1,4 @@
-
+﻿
 #include <stdio.h>
 #include <windows.h>
 #include "..\common\imgfs.h"
@@ -22,7 +22,7 @@ static bool isFree(BYTE * Base, unsigned int sec, unsigned int payloadChunkSize,
 
 int main(int argc, char *argv[])
 {
-	printf("NBMerge 2.1rc2\n");
+	printf("NBMerge 2.2\n");
 
 	if(argc < 3)
 	{

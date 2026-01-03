@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <windows.h>
 #include "..\common\imgfs.h"
 
@@ -225,7 +225,7 @@ void DumpXipData(FS_DATA_RUN *Dr, char *FileName, FILETIME* FileTime, DWORD Firs
 // Main entry point. Usage: viewimgfs <imgfs_raw_data.bin>
 int main(int argc, char **argv)
 {
-	printf("ImgfsToDump 2.1rc2\n");
+	printf("ImgfsToDump 2.2\n");
 
 	if(argc<2)
 	{

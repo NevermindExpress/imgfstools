@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <windows.h>
 
 #include "..\common\imgfs.h"
@@ -44,7 +44,7 @@ unsigned int sectorSize(BYTE *Base, unsigned int Size)
 // Start here...
 int main(int argc, char **argv)
 {
-	printf("ImgfsFromNb 2.1rc2\n");
+	printf("ImgfsFromNb 2.2\n");
 
 	if (argc < 3)
 	{

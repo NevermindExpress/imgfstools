@@ -1,4 +1,4 @@
-
+﻿
 #include "stdafx.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -486,7 +486,7 @@ void AddModule(char* Path)
 // Main function
 int _tmain(int argc, _TCHAR* argv[])
 {
-	printf("ImgfsFromDump 2.1rc2\n");
+	printf("ImgfsFromDump 2.2\n");
 
     if(argc < 3)
 	{

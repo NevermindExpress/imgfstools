@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <windows.h>
 
 #include "..\common\imgfs.h"
@@ -129,7 +129,7 @@ int main(int argc, char **argv)
 {
 	enum { CONSERVATIVE, BIGSTORAGE, SUPERSTORAGE } mode = BIGSTORAGE;
 
-	printf("ImgfsToNb 2.1rc2\n");
+	printf("ImgfsToNb 2.2\n");
 
 	if(argc < 4)
 	{
@@ -164,7 +164,7 @@ int main(int argc, char **argv)
 	}
 
 
-	// Idee (bepe): minimale und maximale Größe der resultierenden Datei angeben.
+	// Idee (bepe): minimale und maximale GrÃ¶ÃŸe der resultierenden Datei angeben.
 	// (ImgFS? nb vor, oder nb nach dem split?)
 
 	// open both input files

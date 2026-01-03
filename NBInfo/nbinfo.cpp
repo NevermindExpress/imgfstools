@@ -1,4 +1,4 @@
-
+﻿
 #include <stdio.h>
 #include <windows.h>
 #include "..\common\imgfs.h"
@@ -62,7 +62,7 @@ static const char * fsName(BYTE fs)
 // main entry point
 int main(int argc, char *argv[])
 {
-    printf("NBInfo 2.1rc2\n");
+    printf("NBInfo 2.2\n");
 
 	if(argc < 2)
 	{

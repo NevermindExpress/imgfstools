@@ -1,4 +1,4 @@
-
+﻿
 #include <stdio.h>
 #include <windows.h>
 
@@ -8,7 +8,7 @@
 
 int main(int argc, char *argv[])
 {
-	printf("NBSplit 2.1rc2\n");
+	printf("NBSplit 2.2\n");
 
 	if(argc < 3)
 	{
